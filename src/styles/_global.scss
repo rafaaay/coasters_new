@@ -1,0 +1,22 @@
+body {
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 2rem;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(0.9);
+  }
+
+  &--white {
+    background-color: $color-white;
+    color: $color-black;
+  }
+}

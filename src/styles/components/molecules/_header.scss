@@ -1,0 +1,18 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: $color-white;
+  z-index: 2;
+
+  &__logo {
+    width: 25rem;
+
+    img {
+      width: 100%;
+    }
+  }
+}

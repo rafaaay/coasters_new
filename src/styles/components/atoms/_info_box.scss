@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Righteous&display=swap");
+
+.info_box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  position: relative;
+
+  span {
+    font-size: $font-size-medium;
+    font-weight: bold;
+    text-align: center;
+    height: 8rem;
+    width: 8rem;
+    background-color: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    align-self: center;
+  }
+
+  p {
+    color: $color-white;
+  }
+
+  &:nth-child(1) {
+    background-color: $color-blue;
+
+    span {
+      color: $color-blue;
+    }
+  }
+
+  &:nth-child(2) {
+    background-color: $color-green;
+
+    span {
+      color: $color-green;
+    }
+  }
+
+  &:nth-child(3) {
+    background-color: $color-orange;
+
+    span {
+      color: $color-orange;
+    }
+  }
+
+  &:nth-child(4) {
+    background-color: $color-red;
+
+    span {
+      color: $color-red;
+    }
+  }
+}

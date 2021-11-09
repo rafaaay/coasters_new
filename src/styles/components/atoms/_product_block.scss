@@ -1,0 +1,13 @@
+.product_block {
+  background-color: rgba($color: $color-white, $alpha: 0.8);
+  padding: 2rem;
+  text-align: center;
+
+  img {
+    width: 100%;
+  }
+
+  h3 {
+    margin-top: 2rem;
+  }
+}

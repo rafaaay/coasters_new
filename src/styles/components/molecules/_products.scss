@@ -1,0 +1,21 @@
+.products {
+  background-color: rgba($color: $color-primary, $alpha: 0.9);
+
+  .heading {
+    color: $color-white;
+
+    &::after {
+      background-color: $color-white;
+    }
+  }
+
+  .product_block {
+    margin: 0 1rem;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+}

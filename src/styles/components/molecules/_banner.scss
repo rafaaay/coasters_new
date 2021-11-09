@@ -1,0 +1,17 @@
+.banner {
+  background-color: rgba(#164b6a, 0.9);
+  padding: 4rem 0;
+
+  .heading--primary {
+    color: $color-white;
+    margin-bottom: 4rem;
+
+    &::after {
+      background-color: $color-white;
+    }
+  }
+
+  .text {
+    color: $color-white;
+  }
+}
