@@ -1,10 +1,46 @@
 .banner {
-  background-color: rgba(#164b6a, 0.9);
+  background-color: $color-primary;
   padding: 4rem 0;
+
+  &__content {
+    display: flex;
+    gap: 3rem;
+  }
+
+  &__image,
+  &__text {
+    flex: 1;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__text {
+    ul {
+      font-size: 1.8rem;
+      color: $color-white;
+    }
+
+    li {
+      padding-left: 5rem;
+      position: relative;
+
+      &:not(:last-child) {
+        margin-bottom: 4rem;
+      }
+
+      svg {
+        position: absolute;
+        left: 0;
+        top: 0.8rem;
+      }
+    }
+  }
 
   .heading--primary {
     color: $color-white;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
 
     &::after {
       background-color: $color-white;

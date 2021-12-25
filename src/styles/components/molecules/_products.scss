@@ -1,12 +1,12 @@
 .products {
-  background-color: rgba($color: $color-primary, $alpha: 0.9);
+  padding: 0;
 
-  .heading {
-    color: $color-white;
+  .section__body {
+    gap: 14rem;
+  }
 
-    &::after {
-      background-color: $color-white;
-    }
+  .section__content {
+    flex: 2;
   }
 
   .product_block {

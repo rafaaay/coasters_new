@@ -1,7 +1,17 @@
 .section {
-  padding: 4rem 0;
+  padding: 10rem 0;
 
   .heading--primary {
     margin-bottom: 4rem;
+  }
+
+  &__body {
+    display: flex;
+    gap: 4rem;
+  }
+
+  &__image,
+  &__content {
+    flex: 1;
   }
 }

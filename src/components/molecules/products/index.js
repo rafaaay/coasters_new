@@ -1,43 +1,37 @@
 import React from "react";
-import Slider from "react-slick";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 // components
-import ProductBlock from "../../atoms/product_block";
+// import ProductBlock from "../../atoms/product_block";
+import SVGOurProducts from "../../svgs/art_our_products";
 
 function Products() {
-  const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 5000,
-    autoplaySpeed: 0,
-    cssEase: "linear",
-  };
-
   return (
     <section className="section products">
       <div className="container">
-        <h2 className="heading heading--primary">Our Products</h2>
+        <div className="section__body">
+          <div className="section__image">
+            <SVGOurProducts />
+          </div>
 
-        <div className="products__slider">
-          <Slider {...settings}>
-            <ProductBlock />
-            <ProductBlock />
-            <ProductBlock />
-            <ProductBlock />
-            <ProductBlock />
-          </Slider>
-        </div>
-
-        <div className="products__button">
-          <Router>
-            <Link to="/expenses" className="button button--white">
-              View All Products
-            </Link>
-          </Router>
+          <div className="section__content">
+            <h2 className="heading heading--primary">Our Products</h2>
+            <p>
+              The coasters are made from pulp material from Finland, Europe. Our
+              coasters are ideal to stop fluids and condensation ruining your
+              table. With regular condensation our coasters are reusable for
+              quiet some time. Coasters.ph offers always double-sided full color
+              printing. The minimum number of coasters that can be ordered for a
+              bulk price is 500 pieces (5 rolls of 100 pieces).
+            </p>
+            <div className="products__button">
+              <Router>
+                <Link to="/expenses" className="button button--red">
+                  View Products
+                </Link>
+              </Router>
+            </div>
+          </div>
         </div>
       </div>
     </section>
