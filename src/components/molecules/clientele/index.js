@@ -3,11 +3,11 @@ import React from "react";
 // import images from "../../images";
 
 function Clientele() {
-  var block_1 = {
-    // src: "image source",
-    // alt: {logo.default},
-    // text: "test test test",
-  };
+  // var block_1 = {
+  //   src: "image source",
+  //   alt: {logo.default},
+  //   text: "test test test",
+  // };
 
   return (
     <section className="section clientele">
