@@ -1,12 +1,12 @@
 import React from "react";
-import ClientBlock from "../../atoms/client_block";
-import images from "../../images";
+// import ClientBlock from "../../atoms/client_block";
+// import images from "../../images";
 
 function Clientele() {
   var block_1 = {
-    src: "image source",
-    alt: {logo.default},
-    text: "test test test",
+    // src: "image source",
+    // alt: {logo.default},
+    // text: "test test test",
   };
 
   return (
