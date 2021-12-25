@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import images from "../../images";
+// import images from "../../images";
 
 function ClientBlock({ text, src, alt }) {
   return (
