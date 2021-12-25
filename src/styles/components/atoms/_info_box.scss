@@ -3,6 +3,7 @@
 .info_box {
   display: flex;
   flex-direction: column;
+  flex: 1;
   gap: 2rem;
   padding: 2rem;
   position: relative;
@@ -42,10 +43,10 @@
   }
 
   &:nth-child(3) {
-    background-color: $color-orange;
+    background-color: $color-red;
 
     span {
-      color: $color-orange;
+      color: $color-red;
     }
   }
 

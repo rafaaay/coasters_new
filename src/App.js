@@ -11,6 +11,7 @@ import Banner from "./components/molecules/banner";
 import AboutUs from "./components/molecules/about_us";
 import Facts from "./components/molecules/facts";
 import Products from "./components/molecules/products";
+import Clientele from "./components/molecules/clientele";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <AboutUs />
       <Facts />
       <Products />
+      <Clientele />
     </div>
   );
 }
